@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Be among the first plumbers in your city to get unlimited vetted customer leads. No upfront cost. First 20 pay 0% commission for 90 days — reserve your spot."
+    />
+    <meta name="theme-color" content="#0a0e1a" />
+    <title>Plumber waitlist — first access to customers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Outfit:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="provider-waitlist.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="bg-mesh" aria-hidden="true"></div>
+    <div class="bg-grid" aria-hidden="true"></div>
+
+    <a class="skip-link" href="#form">Skip to form</a>
+
+    <header class="header">
+      <div class="wrap header__inner">
+        <a class="logo" href="#top" id="top">
+          <span class="logo__mark" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M14.5 2.5h-5a2 2 0 00-2 2v2.2m7-4.2h-2a1 1 0 00-1 1v.5M9.5 2.5v2.2m5-2.2l1.1 1.1M9.5 4.7L8.4 3.6m7.1 0l1.1-1.1M8 6.3l2 2M8 6.3H6.5A2.5 2.5 0 004 8.8v7.2a4 4 0 004 4h1.5M8 6.3L6 4.3M16 6.3h1.5A2.5 2.5 0 0119.5 8.8V16a3 3 0 01-3 3h-1M16 6.3l-2-2M16 6.3l2 2"
+                stroke="currentColor"
+                stroke-width="1.4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+          <span data-config="brandName">fixZa</span>
+          <span class="logo__tag">Pro</span>
+        </a>
+        <nav class="nav" aria-label="On page">
+          <a href="#why">Why join</a>
+          <a href="#how">How it works</a>
+          <a href="#proof">Waitlist</a>
+        </nav>
+        <a class="btn btn--sm btn--primary header__cta" href="#form">Reserve my spot</a>
+        <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="nav-drawer" aria-label="Open menu">
+          <span class="menu-toggle__line"></span>
+          <span class="menu-toggle__line"></span>
+        </button>
+      </div>
+      <div class="nav-drawer" id="nav-drawer" hidden>
+        <a href="#why">Why join</a>
+        <a href="#how">How it works</a>
+        <a href="#proof">Waitlist</a>
+        <a class="btn btn--primary" href="#form">Reserve my spot</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="wrap hero__grid">
+          <div class="hero__copy">
+            <p class="eyebrow">
+              <span class="eyebrow__pulse" aria-hidden="true"></span>
+              <span>Provider access · <span data-config="cityLabel">Your City</span></span>
+            </p>
+            <h1 class="hero__headline" id="hero-headline">
+              Be among the first <span class="hero__n">20</span> plumbers in
+              <span data-config="cityLabel">Your City</span> to get unlimited customer leads — before we open to the public.
+            </h1>
+            <p class="hero__sub" id="hero-sub" hidden></p>
+            <p class="hero__lead" id="hero-lead-default">
+              No upfront cost. Pay only when you complete a job. First 20 plumbers pay
+              <strong>0% commission for 3 months</strong> — and you keep
+              <strong>100% of your first 5 jobs</strong>.
+            </p>
+            <div class="hero__cta">
+              <a class="btn btn--lg btn--primary" href="#form">
+                <span>Reserve my spot</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M5 12h14m-6-6l6 6-6 6"
+                    stroke="currentColor"
+                    stroke-width="1.75"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+              <p class="hero__note">Takes about 30 seconds. No contract — cancel anytime.</p>
+            </div>
+            <ul class="hero__pills" aria-label="Key points">
+              <li>Get jobs before other plumbers in your area</li>
+              <li>Pre-verified customers — no fake lead farms</li>
+            </ul>
+          </div>
+          <div class="hero__panel" aria-hidden="true">
+            <div class="stat-card">
+              <p class="stat-card__label">Plumbers on the list</p>
+              <p class="stat-card__value"><span data-config="waitlistCount">14</span></p>
+              <p class="stat-card__hint">in <span data-config="cityLabel">Your City</span> right now</p>
+            </div>
+            <div class="stat-card stat-card--accent">
+              <p class="stat-card__label">0% commission spots left</p>
+              <p class="stat-card__value"><span data-config="spotsLeft">6</span></p>
+              <p class="stat-card__hint">First 20 only — then standard rates apply</p>
+            </div>
+            <div class="hero__pipe">
+              <div class="hero__pipe-inner"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="why">
+        <div class="wrap">
+          <header class="section__head reveal">
+            <h2>Why join the waitlist?</h2>
+            <p>We are not selling “an app” — you are getting <em>first access to real work</em> in your market.</p>
+          </header>
+          <ul class="feature-grid">
+            <li class="feature reveal">
+              <div class="feature__icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M13 3L3 8l10 5 8-3.5V17M3 8v8l10 5M13 3v18"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3>Jobs before the rest</h3>
+              <p>Be in line before we open the floodgates to every plumber in town.</p>
+            </li>
+            <li class="feature reveal">
+              <div class="feature__icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M9 12l2 2 4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3>Zero risk</h3>
+              <p>No contracts. No upfront fees. Pay only when you close a job.</p>
+            </li>
+            <li class="feature reveal">
+              <div class="feature__icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 3v1m0 16v1m8.66-8.66h-1M4.34 12H3.34m2.2-5.5l.92.92m11.08 0l.92.92M6.26 6.26l.92.92m10.2 0l.92.92M4.8 4.8l.72.72m13.2 0l.72.72M12 8.5A3.5 3.5 0 1015.5 12 3.5 3.5 0 0012 8.5z"
+                    stroke="currentColor"
+                    stroke-width="1.3"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <h3>Real customers</h3>
+              <p>Homeowners are pre-screened. No $50 “maybe” leads that ghost you.</p>
+            </li>
+            <li class="feature reveal">
+              <div class="feature__icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 2v4m0 12v4M2 12h4m12 0h4M4.93 4.93l2.83 2.83m8.48 0l2.83-2.83M4.93 19.07l2.83-2.83m8.48 0l2.83 2.83M12 8a4 4 0 100 8 4 4 0 000-8z"
+                    stroke="currentColor"
+                    stroke-width="1.35"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3>Keep your first 5 in full</h3>
+              <p>100% of the payout on your first five completed jobs. Then 0% platform fees for 90 days for founding pros.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="how">
+        <div class="wrap">
+          <header class="section__head reveal">
+            <h2>How it works</h2>
+            <p>Three steps. No runaround.</p>
+          </header>
+          <ol class="steps">
+            <li class="step reveal">
+              <span class="step__num">1</span>
+              <div>
+                <h3>Join the waitlist</h3>
+                <p>Tell us your name, number, and the zip codes you cover — about 30 seconds.</p>
+              </div>
+            </li>
+            <li class="step reveal">
+              <span class="step__num">2</span>
+              <div>
+                <h3>We launch in <span data-config="cityLabel">Your City</span> on <span data-config="launchDate">May 15, 2026</span></h3>
+                <p>We will text you a week before with demand in your areas, then again on launch day with your app link.</p>
+              </div>
+            </li>
+            <li class="step reveal">
+              <span class="step__num">3</span>
+              <div>
+                <h3>Get job alerts on your phone</h3>
+                <p>Accept what fits. You control when you are “on” — we never spam your line.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section" id="proof">
+        <div class="wrap proof">
+          <div class="proof__card reveal">
+            <p class="proof__stat">
+              Already <strong><span data-config="waitlistCount">14</span> plumbers</strong> on the list in
+              <span data-config="cityLabel">Your City</span>
+            </p>
+            <p class="proof__fine">Founding group is capped at 20 for the 0% / founding perks.</p>
+          </div>
+          <div class="proof__card proof__card--time reveal" id="scarcity">
+            <h2 class="proof__title">Scarcity &amp; deadline</h2>
+            <p class="proof__line">
+              Only <strong><span data-config="spotsLeft">6</span> spots</strong> left at 0% commission for 90 days.
+            </p>
+            <p class="proof__line">Waitlist for founding perks closes <strong data-config="closeDate">May 1, 2026</strong>.</p>
+            <div class="countdown" id="countdown" role="timer" aria-live="polite">
+              <div class="countdown__unit">
+                <span class="countdown__val" data-cd="days">0</span>
+                <span class="countdown__lbl">days</span>
+              </div>
+              <div class="countdown__unit">
+                <span class="countdown__val" data-cd="hours">0</span>
+                <span class="countdown__lbl">hours</span>
+              </div>
+              <div class="countdown__unit">
+                <span class="countdown__val" data-cd="mins">0</span>
+                <span class="countdown__lbl">min</span>
+              </div>
+              <div class="countdown__unit">
+                <span class="countdown__val" data-cd="secs">0</span>
+                <span class="countdown__lbl">sec</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--form" id="form">
+        <div class="wrap form-layout">
+          <div class="form-layout__intro reveal">
+            <h2>Reserve your spot</h2>
+            <p>We will text you within minutes. Phone is required so we can confirm you are a real pro — not a bot.</p>
+            <ul class="trust-inline">
+              <li>No long-term contract</li>
+              <li>Cancel anytime</li>
+              <li>We never give customers your number until you accept a job</li>
+            </ul>
+          </div>
+          <form class="form-card reveal" id="waitlist-form" method="post" action="https://local-services-api-a2f96253fa0f.herokuapp.com/api/leads" novalidate>
+            <!-- Direct post target set to Heroku API leads endpoint -->
+            <input type="hidden" name="source" value="provider_waitlist_landing" />
+            <div class="form__row form__row--2">
+              <label class="field">
+                <span class="field__label">Full name <span class="req">*</span></span>
+                <input type="text" name="name" required autocomplete="name" placeholder="Alex Rivera" />
+              </label>
+              <label class="field">
+                <span class="field__label">Mobile phone <span class="req">*</span></span>
+                <input type="tel" name="phone" required autocomplete="tel" inputmode="tel" placeholder="(555) 123-4567" />
+                <span class="field__hint">We will text you — usually within minutes of signing up</span>
+              </label>
+            </div>
+            <label class="field">
+              <span class="field__label">Email <span class="req">*</span></span>
+              <input type="email" name="email" required autocomplete="email" placeholder="you@company.com" />
+            </label>
+            <label class="field">
+              <span class="field__label">Zip codes you serve <span class="req">*</span></span>
+              <textarea
+                name="zips"
+                required
+                rows="2"
+                placeholder="e.g. 90210, 90211, 90212 — or list neighborhoods"
+              ></textarea>
+            </label>
+            <p class="field__label zip-quick-label">Quick add (tap to append)</p>
+            <div class="zip-chips" id="zip-chips" aria-label="Example zip codes"></div>
+            <label class="field">
+              <span class="field__label">License number <span class="opt">(optional)</span></span>
+              <input type="text" name="license" autocomplete="off" placeholder="Helps us prioritize verified pros" />
+            </label>
+            <label class="field field--check">
+              <input type="checkbox" name="consent" value="yes" required />
+              <span>I agree to receive text messages about the waitlist and launch. Message &amp; data rates may apply. Reply STOP anytime.</span>
+            </label>
+            <p class="form__error" id="form-error" role="alert" hidden></p>
+            <button type="submit" class="btn btn--lg btn--primary form__submit" id="form-submit">
+              <span>Reserve my spot</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path
+                  d="M5 12h14m-6-6l6 6-6 6"
+                  stroke="currentColor"
+                  stroke-width="1.75"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section section--badges">
+        <div class="wrap badges reveal">
+          <div class="badge">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path
+                d="M9 12l2 2 4-4M12 3l7 4v5c0 5-3.5 9-7 11-3.5-2-7-6-7-11V7l7-4z"
+                stroke="currentColor"
+                stroke-width="1.4"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span>No contracts</span>
+          </div>
+          <div class="badge">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path
+                d="M18.36 5.64A9 9 0 105.64 18.36 9 9 0 0018.36 5.64zM9 9h6M9 12h.01M9 15h.01M12 12h.01M12 15h.01M15 9h.01M15 12h.01M15 15h.01"
+                stroke="currentColor"
+                stroke-width="1.3"
+                stroke-linecap="round"
+              />
+            </svg>
+            <span>Cancel anytime</span>
+          </div>
+          <div class="badge">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path
+                d="M3 5a2 2 0 012-2h3.2a2 2 0 011.4.6l.6.6a1 1 0 00.6.2H19a2 2 0 012 2v3M3 5v10a2 2 0 002 2h4m-6-4h.01M7 7h.01M11 4h1m4 0h1M8 4h.01"
+                stroke="currentColor"
+                stroke-width="1.35"
+                stroke-linecap="round"
+              />
+            </svg>
+            <span>We never share your number with customers</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap footer__inner">
+        <p class="footer__brand"><span data-config="brandName">fixZa</span> Pro</p>
+        <p class="footer__copy">© <span id="year"></span> <span data-config="brandName">fixZa</span>. Built for local pros.</p>
+      </div>
+    </footer>
+
+    <a class="sticky-cta btn btn--primary" href="#form" id="sticky-cta">Reserve my spot</a>
+
+    <div class="modal" id="success-modal" hidden>
+      <div class="modal__backdrop" data-close></div>
+      <div
+        class="modal__card"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="success-title"
+        aria-describedby="success-body"
+      >
+        <h2 id="success-title" class="modal__title">You are on the list</h2>
+        <p id="success-body" class="modal__text">
+          Thanks for joining. Check your phone — we are sending a text with your place in line and what happens next.
+        </p>
+        <button type="button" class="btn btn--primary" data-close>Close</button>
+      </div>
+    </div>
+
+    <script src="provider-waitlist.js" defer></script>
+  </body>
+</html>
