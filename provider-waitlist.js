@@ -13,7 +13,7 @@
     city: "Your City",
     // ISO strings in local-interpreted as Date (use explicit Z if you need UTC)
     launchDate: "2026-06-12T08:00:00",
-    waitlistCloseDate: "2026-05-01T23:59:59",
+    waitlistCloseDate: "2026-06-10T23:59:59",
     waitlistCount: 14,
     founderSlots: 20,
     /** Derived if not set: founderSlots - (founderSlots - spotsLeft) — set explicitly for copy */
